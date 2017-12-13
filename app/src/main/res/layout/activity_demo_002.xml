@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/button001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Toast" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/button002"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Go to Demo001Activity" />
+    </LinearLayout>
+</layout>
